@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  font-size: 18px;
 }
 
 .main {
@@ -10,6 +11,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+}
+
+.a{
+  margin-left: 5px;
+  color: auto;
+  text-decoration: underline;
 }
 
 .footer {
@@ -19,13 +27,6 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
 }
 
 .title a {
